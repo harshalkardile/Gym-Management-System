@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gym Management System</title>
+  <link rel="stylesheet" href="st.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">GYM</a></div>
+        <ul class="links">
+          <li>
+            <a href="#" class="desktop-link">Admin</a>
+            <input type="checkbox" id="show-members">
+            <label for="show-members">Admin</label>
+            <ul>
+              <li><a href="admin_pw.html">Login Admin</a></li>
+            </ul>
+          </li>
+
+          <li><a href="display_package.php">Packages</a></li>
+          
+          <li>
+            <a href="#" class="desktop-link">Member</a>
+            <input type="checkbox" id="show-members">
+            <label for="show-members">Member</label>
+            <ul>
+		    <!--<li><a href="member_pw.html">Member Login</a></li>-->
+              <li><a href="form1.html">Register Member</a></li>
+              <li><a href="display_memb.php">Display</a></li>
+              
+            </ul>
+          </li>
+
+          <li>
+            <li>
+            <a href="#" class="desktop-link">Trainer</a>
+            <input type="checkbox" id="show-Trainer">
+            <label for="show-Trainer">Trainer</label>
+            <ul>
+		    <!--<li><a href="trainer_pw.html">Trainer Login</a></li>-->
+              <li><a href="form2.html">Register Trainer</a></li>
+              <li><a href="display_trainer.php">Display Trainers</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          
+          <li><a href="#" class="desktop-link">Contact us</a>
+          <input type="checkbox" id="show-contact">
+            <label for="show-contact">Contact</label>
+            <ul>
+              <li><a href="" >call us</a></a></li>
+              <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJPtmttcLXCSsTsQkQXBZrqhFMXrzgnjjTGDBShzLNQrvGFpLJPHpzLrfpjDksxSPLpQ" >Mail us</a></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+     
+      </form>
+    </nav>
+  </div>
+  <div class="dummy-text">
+    <h2>Gym Management System</h2>
+    <h1>Here you can register & display data of member,trainer and packages and login as an Admin</h1>
+  </div>
+</body>
+</html>
