@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <title>Admin Login</title>
+                <link rel="stylesheet" href="stylelogin.css">
+                             <script>
+  function vali()
+                        {
+
+                                var name=document.getElementById("name").value;
+                                var password=document.getElementById("password").value;
+
+                                if(name.length==0 )
+                                        {
+                                                alert("Please Enter the Username!!!");
+                                                return false;
+                                        }
+                                else if(password.length==0)
+                                {
+                                        alert("Please Enter the password!!!");
+                                        return false;
+                                }
+                        }
+                  </script>
+
+        </head>
+        <body>
+                <div class="loginBox">
+                        <img src="admin2.png" class="user">
+                        <h2> Admin </h2>
+                        <form action="admin_pw.php" method='POST' onsubmit="return vali()" >
+                                <p>USER NAME</p>
+                                <input type="text" name="i" id="name" placeholder="harshal Kardile"maxlength="20">
+                                <p>PASSWORD</p>
+                                <input type="password" name="p" id="password" placeholder="Harshal@123" maxlength="15">
+                                <input type="submit" name="" value="Sign In">
+                                <a href="#">Forget Password ?</a><br><br>
+				<a href="gym.html">Go home</a> <br>
+                        </form>
+                </div>
+        </body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Member login</title>
+       MEMBER LOGIN**
+</head>
+<body>
+<PRE>
+<form method="POST" action="admin_pw.php">
+
+	Enter login Id : <input type="text" name="i">
+	Enter password : <input type="password" name="p">
+	<input type="submit" value="login">
+	<input type="Reset" value="Reset">
+
+</form>
+</PRE>
+</body>
+</html> 
+-->
