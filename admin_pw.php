@@ -1,22 +1,6 @@
 <html>
 <body bgcolor="skyblue">
 <center><pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </pre>
 <?php
 //$user="harshal";
@@ -28,7 +12,6 @@ $p=$_POST['p'];
 //if($user==$i && $pass==$p)
 if($i=='harshal' && $p=='root123')
    header("Location: http://localhost/gym/admin.html");
-
 else
    echo "Please Enter Correct User id and Password";
 ?>
