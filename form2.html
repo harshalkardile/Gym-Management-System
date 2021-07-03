@@ -1,0 +1,51 @@
+<html>
+<link rel="stylesheet" href="frm.css">
+
+<form method="POST" action="add_trainer.php">
+  <div class="container">
+    <h1>Trainer Registration</h1>
+    <p>Enter following details to register as Trainer</p>
+    <hr>
+
+    <!--tid,tname,tadd,tshift,tuser,gid-->
+
+    <label for="T_id"><b>Enter T_id provided by admin</b></label>
+    <input type="text" placeholder="135412" name="tid"  required>
+
+    <label for="T_name"><b>Enter your name:-</b></label>
+    <input type="text" placeholder="harshal kardile" name="tname"  required>
+
+    <label for="T_addr"><b>Enter your Address:-</b></label>
+    <input type="text" placeholder="Ankur Colony,Nakhatewasti..." name="tadd"  required>
+
+    <label for="T_shift"><b>Enter your required Shift.:-</b></label>
+    <input type="text" placeholder="mrng/eve" name="tshift"  required>
+
+
+    <label for="M_username"><b>Enter EmailID:-</b></label>
+    <input type="text" placeholder="Harshal@231" name="tuser"  required>
+
+    <label for="gym_id"><b>Enter Gym id:-</b></label>
+    <input type="text" placeholder="1005" name="gid"  required>
+
+    <!--<label for="gym_id"><b>Enter Trainer id:-</b></label>
+    <input type="text" placeholder="1" name="tid"  required>-->
+	
+
+    <!--<label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>-->
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+ <!-- <div class="container signin">
+    <p>Already have an account? <a href="member_pw.html">Sign in</a></p>
+ </div>-->
+
+</form>
+</html>
