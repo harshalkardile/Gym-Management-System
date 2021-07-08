@@ -3,14 +3,14 @@
 <center><pre>
 </pre>
 <?php
-//$user="harshal";
-//$pass="root123";
-$i=$_POST['i'];
-$p=$_POST['p'];
+$user="harshal";
+$pass="root123";
+//$i=$_POST['i'];
+//$p=$_POST['p'];
 
 
-//if($user==$i && $pass==$p)
-if($i=='harshal' && $p=='root123')
+if($user==$i && $pass==$p)
+//if($i=='harshal' && $p=='root123')
    header("Location: http://localhost/gym/admin.html");
 else
    echo "Please Enter Correct User id and Password";
