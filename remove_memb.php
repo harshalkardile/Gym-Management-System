@@ -26,4 +26,3 @@ echo "Data of Member ID:$r is deleted Sucessfully !!! ";
 
 ?>
 <a href="remove_memb.html">Go Back</a>
-				      
