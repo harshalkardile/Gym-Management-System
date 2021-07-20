@@ -32,7 +32,5 @@ while( $rec =pg_fetch_assoc($rs))
 pg_close($con);
 
 
-?>
-</body>
-</html>
+
 
