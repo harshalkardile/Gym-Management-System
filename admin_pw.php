@@ -16,7 +16,7 @@ else
    echo "Please Enter Correct User id and Password";
 ?>
 <br>
-<a href="admin_pw.html">go back</a>
+
 
 </body>
 </html>
