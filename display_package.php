@@ -1,8 +1,3 @@
-<html>
-<head>
-<center><h1>Package Details</h1></center>
-</head>
-<body bgcolor="skyblue">
 
 
 <?php
