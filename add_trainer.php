@@ -1,11 +1,4 @@
-<?php
 
-$m=$_POST['tid'];
-$n=$_POST['tname'];
-$o=$_POST['tadd'];
-$p=$_POST['tshift'];
-$q=$_POST['tuser'];
-$r=$_POST['gid'];
 
 //<!--tid,tname,tadd,tshift,tuser,gid-->
 
