@@ -1,4 +1,11 @@
-
+body
+{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(gymg.jpg); no-repeat
+        background-size: cover;
+        font-family: sans-serif;
+}
 .loginBox
 {
         position: absolute;
