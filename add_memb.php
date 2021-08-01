@@ -1,6 +1,14 @@
 <?php
 
 
+$m=$_POST['id'];
+$n=$_POST['name'];
+$o=$_POST['mno'];
+$p=$_POST['madd'];
+$q=$_POST['muser'];
+$r=$_POST['gid'];
+$s=$_POST['tid'];
+
 
 //<!-- id,name,mno,madd,muser,gid,tid-->
 
