@@ -1,8 +1,4 @@
-<html>
-<head>
-<center><h1>Trainers Informaton**</h1></center>
-</head>
-<body bgcolor="skyblue">
+
 
 
 <?php
