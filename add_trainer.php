@@ -1,4 +1,4 @@
-
+<?php
 $m=$_POST['tid'];
 $n=$_POST['tname'];
 $o=$_POST['tadd'];
