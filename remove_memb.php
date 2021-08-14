@@ -17,7 +17,7 @@ if($cnt==0)
 
 $qry="delete from member where m_id=$r";
 
-pg_query($con,$qry) or die ("Problem to Delete query");   //2nd QUERY**
+pg_query($con,$qry) or die ("check query of Deletion");   //2nd QUERY**
 
 pg_close($con);
 
