@@ -23,6 +23,5 @@ pg_close($con);
 
 echo "updated Sucessfully !!!<br>";
 
-
 ?><br>
 <a href="update_trainer.html">Go Back</a>
