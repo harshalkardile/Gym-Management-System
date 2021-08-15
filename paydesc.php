@@ -3,16 +3,15 @@
 <center><h1>Payment Details</h1></center>
 </head>
 <body bgcolor="skyblue">
-
-
 <?php
+        
 $con=pg_connect("host=localhost user=harshal password=root123 dbname=gym") or die ( "unable to connect database");
 $qry= "select * from payment";
-
 $rs=pg_query($con,$qry) or die ("problem in slection of query");
-echo "<center>";
-echo "<table border=1s style=background-color:white>";
-echo "<tr><th> Pay_ID </th> <th>Pay_date</th> <th>Pay_amt</th> <th>Pay_desc.</th>";
+
+        echo "<center>";
+        echo "<table border=1s style=background-color:white>";
+        echo "<tr><th> Pay_ID </th> <th>Pay_date</th> <th>Pay_amt</th> <th>Pay_desc.</th>";
 
 while( $rec =pg_fetch_assoc($rs))
 {
@@ -30,6 +29,7 @@ while( $rec =pg_fetch_assoc($rs))
 }
 
 pg_close($con);
+
 ?>
 </body>
 </html>
