@@ -6,13 +6,14 @@
 
 
 <?php
+        
 $con=pg_connect("host=localhost user=harshal password=root123 dbname=gym") or die ( "unable to connect database");
 $qry= "select * from package";
-
 $rs=pg_query($con,$qry) or die ("problem in slection of query");
-echo "<center>";
-echo "<table border=1>";
-echo "<tr><th> P_id </th> <th>P_name</th> <th>P_amt</th> <th>P_type</th> <th> P_desc </th> <th>Gym_id</th> ";
+
+        echo "<center>";
+        echo "<table border=1>";
+        echo "<tr><th> P_id </th> <th>P_name</th> <th>P_amt</th> <th>P_type</th> <th> P_desc </th> <th>Gym_id</th> ";
 
 while( $rec =pg_fetch_assoc($rs))
 {
@@ -34,7 +35,6 @@ while( $rec =pg_fetch_assoc($rs))
 }
 
 pg_close($con);
-
 
 ?>
 </body>
