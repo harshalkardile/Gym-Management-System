@@ -6,7 +6,6 @@ $p=$_POST['tshift'];
 $q=$_POST['tuser'];
 $r=$_POST['gid'];
 
-
 //<!--tid,tname,tadd,tshift,tuser,gid-->
 
 //$m=$_POST['m'];
