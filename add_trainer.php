@@ -21,7 +21,6 @@ pg_close($con);
 
 echo "Record is Added SUCCESSFFULLY**";
 
-
 ?>
 <a href="form2.html">Go Back</a>
 
