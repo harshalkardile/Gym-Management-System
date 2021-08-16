@@ -28,7 +28,7 @@ while( $rec =pg_fetch_assoc($rs))
         echo"</tr>";
 }
 
-
+pg_close($con);
 
 ?>
 </body>
