@@ -24,7 +24,6 @@ pg_close($con);
 echo "updated Sucessfully !!!<br>";
 
 
-?>
-<a href="update_memb.html"><br>
-Go Back</a>
+?><br>
+<a href="update_memb.html">Go Back</a>
 
