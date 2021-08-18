@@ -8,7 +8,7 @@ $r=$_POST['gid'];
 
 //<!--tid,tname,tadd,tshift,tuser,gid-->
 
-/$m=$_POST['m'];
+//$m=$_POST['m'];
 
 $con=pg_connect("host=localhost user=harshal password=root123 dbname=gym")or die ("unable to connect DATABASE**");
 
