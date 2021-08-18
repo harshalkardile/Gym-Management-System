@@ -17,8 +17,6 @@ $s=$_POST['tid'];
 $con=pg_connect("host=localhost user=harshal password=root123 dbname=gym")or die ("unable to connect DATABASE**");
 
 $qry="insert into member values($m,'$n',$o,'$p','$q',$r,$s)";
-
-//$qry="insert into member values($m,'$n','$o','$p','$q','$r','$s');"
 	
 pg_query($con,$qry) or die ("unable to insert values in DATABASE**");
 
