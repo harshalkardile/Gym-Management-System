@@ -8,7 +8,6 @@ $q=$_POST['muser'];
 $r=$_POST['gid'];
 $s=$_POST['tid'];
 
-
 //<!-- id,name,mno,madd,muser,gid,tid-->
 
 //$m=$_POST['m'];
