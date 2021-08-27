@@ -1,6 +1,5 @@
 <?php
 
-
 $m=$_POST['id'];
 $n=$_POST['name'];
 $o=$_POST['mno'];
