@@ -4,7 +4,6 @@
 </head>
 <body bgcolor="skyblue">
 
-
 <?php
 $con=pg_connect("host=localhost user=harshal password=root123 dbname=gym") or die ( "unable to connect database");
 $qry= "select * from pay_memb";
