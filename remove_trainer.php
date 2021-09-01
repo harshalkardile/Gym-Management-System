@@ -26,4 +26,3 @@ echo "Data of Trainer ID:$r deleted Sucessfully !!";
 
 ?><br>
 <a href="remove_trainer.html">Go Back</a>
-              
