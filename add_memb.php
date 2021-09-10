@@ -24,4 +24,3 @@ echo "Record is Added SUCCESSFFULLY**";
 
 ?><br>
 <a href="form1.html">Go Back</a>
-
