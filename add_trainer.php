@@ -19,6 +19,5 @@ pg_query($con,$qry) or die ("unable to insert values in DATABASE**");
 pg_close($con);
 
 echo "Record is Added SUCCESSFFULLY**";
-
 ?><br>
 <a href="form2.html">Go Back</a>
